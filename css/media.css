@@ -1,0 +1,110 @@
+@media only screen and (max-width:700px) {
+    nav ul {
+        width: 100%;
+        background: linear-gradient( #ff46f6, #7ba9ff);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a {
+        color: whitesmoke;
+    }
+    .menu-icon {
+        display: block;
+    }
+    #menuList {
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    .row {
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
+    .col-2 {
+        flex-basis: 100%;
+        margin-bottom: 50px;
+    }
+    .col-2 .controller {
+        width: 77%;
+    }
+    .color-box {
+        transform: translateX(75px);
+    }
+    .col-1 {
+        flex-basis: 100%;
+    }
+    .col-1 h2 {
+        font-size: 35px;
+    }
+    .col-1 h3 {
+        font-size: 15px;
+    }
+    .add-btn {
+        top: 9rem;
+        left: 9rem;
+    }
+    #hed-1 {
+        position: relative;
+        font-size: 19px;
+        margin: -2px -29rem;
+    }
+    /* section-1 */
+    .back-img img {
+        width: 26rem;
+        height: 18rem;
+    }
+    .back-img h2 {
+        bottom: -23rem;
+        color: whitesmoke;
+        left: 4rem;
+        font-size: 33px;
+    }
+    .back-img p {
+        display: none;
+    }
+    #btn-2 {
+        top: 74rem;
+        left: 7rem;
+    }
+    .about .heading {
+        /* display: none; */
+        font-size: 63px;
+    }
+    .about .heading span {
+        /* display: none; */
+        font-size: 21px;
+    }
+    .about .row .image img {
+        width: 63%;
+        position: absolute;
+        bottom: -50rem;
+        left: 2rem;
+    }
+    .about .row .content .title {
+        font-size: 28px;
+        display: inline;
+        position: relative;
+        left: 1rem;
+        bottom: -23rem;
+        width: 8px;
+        overflow: hidden;
+    }
+    .about .row .content p {
+        /* display: none; */
+        position: absolute;
+        left: 1rem;
+        width: 23rem;
+        top: 120rem;
+        bottom: 5rem;
+    }
+    .footer-dark {
+        position: absolute;
+        bottom: -127rem;
+    }
+}
