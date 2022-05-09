@@ -83,7 +83,7 @@
     .about .row .image img {
         width: 63%;
         position: absolute;
-        bottom: -50rem;
+       bottom: -61rem;
         left: 2rem;
     }
     .about .row .content .title {
@@ -105,6 +105,6 @@
     }
     .footer-dark {
         position: absolute;
-        bottom: -127rem;
+           bottom: -141rem;
     }
 }
